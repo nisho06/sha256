@@ -1,0 +1,31 @@
+
+O
+java:S1135B"2Complete the task associated to this TODO comment.(’õ¹Ó8„û—Ñï.
+b
+java:S1854"@Remove this useless assignment to local variable "passwordSalt".(¤‡˜œüÿÿÿÿ8Õ’”îï.
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(Àûå 8ñ±›·ï.
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Â»$8¢·©Ûï.
+S
+java:S1481"1Remove this unused "passwordSalt" local variable.(¤‡˜œüÿÿÿÿ8Õ’”îï.
+T
+java:S1135<"2Complete the task associated to this TODO comment.(È…ÄÃüÿÿÿÿ8ñ±›·ï.
+N
+java:S1481",Remove this unused "mySalts" local variable.(ð“Ä÷øÿÿÿÿ8îà·ï.
+K
+java:S1144"/Remove this unused private "sha256Hash" method.(™Â»$8¢·©Ûï.
+L
+java:S1481"*Remove this unused "count" local variable.(Å˜Ó¢ýÿÿÿÿ8”Â½·ï.
+O
+java:S1135C"2Complete the task associated to this TODO comment.(ÎÈ¶¾8ß•šÑï.
+G
+java:S1481#"*Remove this unused "count" local variable.(æÕ¿¼8–ŸÊ¶ï.
+X
+java:S1481"6Remove this unused "passwordCharArray" local variable.(Ä¢Îýÿÿÿÿ8ËÉö¶ï.
+O
+java:S1128	"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Õ’”îï.
+X	java:S125"<This block of commented-out lines of code should be removed.(œ¨•Ú8ÓÚÚ¶ï.
+]
+java:S1854";Remove this useless assignment to local variable "mySalts".(ð“Ä÷øÿÿÿÿ8îà·ï.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÍœ€
+g
+java:S1854"ERemove this useless assignment to local variable "passwordCharArray".(Ä¢Îýÿÿÿÿ8ËÉö¶ï.
