@@ -21,10 +21,8 @@ public class Implementation {
         System.out.println("File name of the salt");
         String saltFile = reader.readLine();
         int count;
-        ArrayList<String> mySalts =
-                readSaltValuesFromFile(saltFile+".txt");
-        ArrayList<String> myPasswords =
-                passwordArrayInCharArray(passwordFile+".txt");
+        ArrayList<String> mySalts = readSaltValuesFromFile(saltFile+".txt");
+        ArrayList<String> myPasswords = passwordArrayInCharArray(passwordFile+".txt");
 
         long start = System.currentTimeMillis();
         for (  count=0; count<10000 ; count++){
