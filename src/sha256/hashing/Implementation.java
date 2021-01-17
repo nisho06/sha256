@@ -47,23 +47,22 @@ public class Implementation {
         ArrayList<String> myPasswords = passwordArrayInCharArray(passwordFile + ".txt");
 
         long start = System.currentTimeMillis();
-        for (count = 0; count < 7; count++) {
+        for (count = 0; count < 10000; count++) {
             String myPassword = sha256Hash(myPasswords.get(count), mySalts.get(count));
-            System.out.println(myPassword);
         }
         long end = System.currentTimeMillis();
 
         double averageElapsedTime = Long.valueOf(end - start).doubleValue() / count;
         System.out.println(averageElapsedTime);
-        System.out.println(count);
     }
 
     /**
-     *  This method is responsible for calculating the sha-256 hash value for the respective Password and Salt values.
+     * This method is responsible for calculating the sha-256 hash value for the respective Password and Salt values.
+     *
      * @param password The password which needs to be hashed.
-     * @param salt The salt which is unique and needs to be concatanated with passwords before it is hashed.
+     * @param salt     The salt which is unique and needs to be concatanated with passwords before it is hashed.
      * @return The hash String value in Base64 encoding scheme.
-     * @throws NoSuchAlgorithmException thrown if there is no Message digest algorithm like "SHA-256".
+     * @throws NoSuchAlgorithmException     thrown if there is no Message digest algorithm like "SHA-256".
      * @throws UnsupportedEncodingException thrown if the UTF-8 character encoding is not supported.
      */
     private static String sha256Hash(String password, String salt) throws NoSuchAlgorithmException,
@@ -80,6 +79,7 @@ public class Implementation {
 
     /**
      * This method is responsible for creating a password array in char[] with the passwords read from the file.
+     *
      * @param filename the filename which has the passwords.
      * @return returns the char[] of array which contains all the char [] for respective passwords read from the file.
      * @throws FileNotFoundException This exception is thrown when there is no file in the name given for filename.
